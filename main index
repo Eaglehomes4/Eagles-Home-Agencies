@@ -1,0 +1,173 @@
+<!-- Add this logout button at the top of your body -->
+<button class="logout-btn" onclick="logout()">Logout</button>
+
+<!-- Add this house details section where you want it to appear -->
+<section class="house-details-section">
+    <h2>Real Estate Agent Property Details</h2>
+    
+    <div class="houses-grid">
+        <!-- ROSALIA HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">ROSALIA HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 3,500</span></li>
+                <li>Number of Tenants: <span class="tenant-count">37</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 129,500</span></li>
+            </ul>
+        </div>
+
+        <!-- JOSPHINE NJAMBI HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">JOSPHINE NJAMBI HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 4,150</span></li>
+                <li>Number of Tenants: <span class="tenant-count">37</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 153,550</span></li>
+            </ul>
+        </div>
+
+        <!-- WAMBIRI HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">WAMBIRI HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 4,150</span></li>
+                <li>Number of Tenants: <span class="tenant-count">6</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 24,900</span></li>
+            </ul>
+        </div>
+
+        <!-- NJUGUNA HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">NJUGUNA HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 4,000</span></li>
+                <li>Number of Tenants: <span class="tenant-count">8</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 32,000</span></li>
+            </ul>
+        </div>
+
+        <!-- MARY NYAMBURA HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">MARY NYAMBURA HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 10,000</span></li>
+                <li>Number of Tenants: <span class="tenant-count">10</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 100,000</span></li>
+            </ul>
+        </div>
+
+        <!-- MARTIN KIGANJO HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">MARTIN KIGANJO HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 3,500</span></li>
+                <li>Number of Tenants: <span class="tenant-count">12</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 42,000</span></li>
+            </ul>
+        </div>
+
+        <!-- JASSAN HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">JASSAN HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 3,500</span></li>
+                <li>Number of Tenants: <span class="tenant-count">11</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 38,500</span></li>
+            </ul>
+        </div>
+
+        <!-- BENSON GICHUKI HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">BENSON GICHUKI HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 9,700</span></li>
+                <li>Number of Tenants: <span class="tenant-count">16</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 155,200</span></li>
+            </ul>
+        </div>
+
+        <!-- JOEL KARANI HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">JOEL KARANI HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 6,500</span></li>
+                <li>Number of Tenants: <span class="tenant-count">41</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 266,500</span></li>
+            </ul>
+        </div>
+
+        <!-- DISHON HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">DISHON HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 7,000</span></li>
+                <li>Number of Tenants: <span class="tenant-count">7</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 49,000</span></li>
+            </ul>
+        </div>
+
+        <!-- AGNES HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">AGNES HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 4,000</span></li>
+                <li>Number of Tenants: <span class="tenant-count">11</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 44,000</span></li>
+            </ul>
+        </div>
+
+        <!-- MWICHIGI HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">MWICHIGI HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 3,500</span></li>
+                <li>Number of Tenants: <span class="tenant-count">30</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 105,000</span></li>
+            </ul>
+        </div>
+
+        <!-- FRANCIS MUGO HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">FRANCIS MUGO HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 10,000</span></li>
+                <li>Number of Tenants: <span class="tenant-count">12</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 120,000</span></li>
+            </ul>
+        </div>
+
+        <!-- HURUMA HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">HURUMA HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 3,500</span></li>
+                <li>Number of Tenants: <span class="tenant-count">5</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 17,500</span></li>
+            </ul>
+        </div>
+
+        <!-- JOBESA COURT HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">JOBESA COURT HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 4,500</span></li>
+                <li>Number of Tenants: <span class="tenant-count">65</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 292,500</span></li>
+            </ul>
+        </div>
+
+        <!-- KIMIA HOUSE -->
+        <div class="house-card">
+            <h3 class="house-name">KIMIA HOUSE</h3>
+            <ul class="house-details">
+                <li>Rent per Tenant: <span class="amount">KSHS. 10,000</span></li>
+                <li>Number of Tenants: <span class="tenant-count">19</span></li>
+                <li>Total Monthly: <span class="total-amount">KSHS. 190,000</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="total-tenants">
+        Total Properties: 16 Houses | Total Tenants: 327 | Grand Total Monthly: KSHS. 1,775,150
+    </div>
+</section>
